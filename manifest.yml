@@ -1,0 +1,6 @@
+---
+applications:
+- name: monitor-rest
+  memory: 512M
+  instances: 1
+  host: monitor-rest
