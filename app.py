@@ -2,6 +2,7 @@
 import os
 from flask import Flask
 from flask import jsonify
+import pymongo
 
 import http.client, urllib.parse
 import json
@@ -58,6 +59,25 @@ def httpGet(url,resource,params, headers):
 @app.route('/')
 def hello_world():
     return 'Welcome to monitoring flask api, I am running on cloud'
+
+@app.route('/mongoTest')
+def hello_world_mongo():
+    myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+    mydb = myclient["local"]
+    mycol = mydb['sample']
+    mydict = { "name": "John", "address": "Highway 37" }
+    x = mycol.insert_one(mydict)
+    print(x)
+    return "mongo "+ str(x.inserted_id)
+
+@app.route('/mongoRead')
+def hello_world_mongo_read():
+    myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+    mydb = myclient["local"]
+    mycol = mydb['student']
+    x = mycol.find_one()
+    print(x)
+    return "mongo "+ str(x)
 
 @app.route('/pcf_app_usage')
 def pcf_apps_usage():
