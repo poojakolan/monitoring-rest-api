@@ -1,0 +1,367 @@
+[
+{
+_id: 1,
+data: {
+data: [
+{
+disk_data: [
+{
+avail_size: "4.0G",
+disk_name: "/dev/mapper/ol-root",
+mounted_path: "/",
+total_size: "5.0G",
+used_percent: "21%",
+used_size: "1.1G"
+},
+{
+avail_size: "16G",
+disk_name: "devtmpfs",
+mounted_path: "/dev",
+total_size: "16G",
+used_percent: "0%",
+used_size: "0"
+},
+{
+avail_size: "16G",
+disk_name: "tmpfs",
+mounted_path: "/dev/shm",
+total_size: "16G",
+used_percent: "0%",
+used_size: "0"
+},
+{
+avail_size: "16G",
+disk_name: "tmpfs",
+mounted_path: "/run",
+total_size: "16G",
+used_percent: "1%",
+used_size: "34M"
+},
+{
+avail_size: "16G",
+disk_name: "tmpfs",
+mounted_path: "/sys/fs/cgroup",
+total_size: "16G",
+used_percent: "0%",
+used_size: "0"
+},
+{
+avail_size: "1.5G",
+disk_name: "/dev/mapper/ol-usr",
+mounted_path: "/usr",
+total_size: "5.0G",
+used_percent: "71%",
+used_size: "3.5G"
+},
+{
+avail_size: "296M",
+disk_name: "/dev/sda1",
+mounted_path: "/boot",
+total_size: "497M",
+used_percent: "41%",
+used_size: "202M"
+},
+{
+avail_size: "5.5G",
+disk_name: "/dev/mapper/ol-opt",
+mounted_path: "/opt",
+total_size: "15G",
+used_percent: "64%",
+used_size: "9.6G"
+},
+{
+avail_size: "2.5G",
+disk_name: "/dev/mapper/ol-home",
+mounted_path: "/home",
+total_size: "3.0G",
+used_percent: "19%",
+used_size: "558M"
+},
+{
+avail_size: "3.0G",
+disk_name: "/dev/mapper/ol-tmp",
+mounted_path: "/tmp",
+total_size: "3.0G",
+used_percent: "2%",
+used_size: "61M"
+},
+{
+avail_size: "990M",
+disk_name: "/dev/mapper/ol-var",
+mounted_path: "/var",
+total_size: "3.0G",
+used_percent: "68%",
+used_size: "2.1G"
+},
+{
+avail_size: "90G",
+disk_name: "/dev/mapper/vg_docker-lv_docker",
+mounted_path: "/var/lib/docker",
+total_size: "200G",
+used_percent: "56%",
+used_size: "111G"
+},
+{
+avail_size: "29G",
+disk_name: "/dev/mapper/vg_tc-lv_tc",
+mounted_path: "/tc",
+total_size: "81G",
+used_percent: "64%",
+used_size: "52G"
+},
+{
+avail_size: "4.1G",
+disk_name: "/dev/mapper/ol-var_log",
+mounted_path: "/var/log",
+total_size: "5.0G",
+used_percent: "18%",
+used_size: "916M"
+},
+{
+avail_size: "2.3G",
+disk_name: "/dev/mapper/ol-var_log_audit",
+mounted_path: "/var/log/audit",
+total_size: "5.0G",
+used_percent: "54%",
+used_size: "2.7G"
+},
+{
+avail_size: "3.2G",
+disk_name: "tmpfs",
+mounted_path: "/run/user/504",
+total_size: "3.2G",
+used_percent: "0%",
+used_size: "0"
+},
+{
+avail_size: "3.2G",
+disk_name: "tmpfs",
+mounted_path: "/run/user/",
+total_size: "3.2G",
+used_percent: "0%",
+used_size: "0"
+}
+],
+ip: "xxxx",
+top_folders: [
+{
+name: "work",
+size: "24G"
+},
+{
+name: "xxx",
+size: "15G"
+},
+{
+name: "system",
+size: "13G"
+},
+{
+name: "npm-global",
+size: "294M"
+},
+{
+name: "temp",
+size: "804K"
+},
+{
+name: "xxx",
+size: "24K"
+},
+{
+name: "ssh-keys",
+size: "12K"
+},
+{
+name: "tabArch",
+size: "4.0K"
+},
+{
+name: "krb5.conf",
+size: "4.0K"
+},
+{
+name: "id_rsa.priv.xxx",
+size: "4.0K"
+}
+]
+},
+{
+disk_data: [
+{
+avail_size: "4.2G",
+disk_name: "/dev/mapper/ol-root",
+mounted_path: "/",
+total_size: "5.0G",
+used_percent: "18%",
+used_size: "912M"
+},
+{
+avail_size: "16G",
+disk_name: "devtmpfs",
+mounted_path: "/dev",
+total_size: "16G",
+used_percent: "0%",
+used_size: "0"
+},
+{
+avail_size: "16G",
+disk_name: "tmpfs",
+mounted_path: "/dev/shm",
+total_size: "16G",
+used_percent: "0%",
+used_size: "0"
+},
+{
+avail_size: "16G",
+disk_name: "tmpfs",
+mounted_path: "/run",
+total_size: "16G",
+used_percent: "1%",
+used_size: "34M"
+},
+{
+avail_size: "16G",
+disk_name: "tmpfs",
+mounted_path: "/sys/fs/cgroup",
+total_size: "16G",
+used_percent: "0%",
+used_size: "0"
+},
+{
+avail_size: "1.8G",
+disk_name: "/dev/mapper/ol-usr",
+mounted_path: "/usr",
+total_size: "5.0G",
+used_percent: "65%",
+used_size: "3.3G"
+},
+{
+avail_size: "234M",
+disk_name: "/dev/sda1",
+mounted_path: "/boot",
+total_size: "497M",
+used_percent: "54%",
+used_size: "264M"
+},
+{
+avail_size: "5.6G",
+disk_name: "/dev/mapper/ol-opt",
+mounted_path: "/opt",
+total_size: "15G",
+used_percent: "64%",
+used_size: "9.5G"
+},
+{
+avail_size: "1001M",
+disk_name: "/dev/mapper/ol-var",
+mounted_path: "/var",
+total_size: "3.0G",
+used_percent: "68%",
+used_size: "2.1G"
+},
+{
+avail_size: "2.5G",
+disk_name: "/dev/mapper/ol-home",
+mounted_path: "/home",
+total_size: "3.0G",
+used_percent: "18%",
+used_size: "541M"
+},
+{
+avail_size: "8.0G",
+disk_name: "/dev/mapper/xxxx",
+mounted_path: "/tc",
+total_size: "45G",
+used_percent: "83%",
+used_size: "38G"
+},
+{
+avail_size: "3.0G",
+disk_name: "/dev/mapper/ol-tmp",
+mounted_path: "/tmp",
+total_size: "3.0G",
+used_percent: "2%",
+used_size: "61M"
+},
+{
+avail_size: "4.4G",
+disk_name: "/dev/mapper/ol-var_log",
+mounted_path: "/var/log",
+total_size: "5.0G",
+used_percent: "14%",
+used_size: "677M"
+},
+{
+avail_size: "100G",
+disk_name: "/dev/mapper/vg_docker-lv_docker",
+mounted_path: "/var/lib/docker",
+total_size: "200G",
+used_percent: "51%",
+used_size: "101G"
+},
+{
+avail_size: "1.7G",
+disk_name: "/dev/mapper/ol-var_log_audit",
+mounted_path: "/var/log/audit",
+total_size: "5.0G",
+used_percent: "67%",
+used_size: "3.4G"
+},
+{
+avail_size: "3.2G",
+disk_name: "tmpfs",
+mounted_path: "/run/user/504",
+total_size: "3.2G",
+used_percent: "0%",
+used_size: "0"
+}
+],
+ip: "xxxx",
+top_folders: [
+{
+name: "xxx",
+size: "17G"
+},
+{
+name: "system",
+size: "13G"
+},
+{
+name: "work",
+size: "7.1G"
+},
+{
+name: "npm-global",
+size: "475M"
+},
+{
+name: "temp",
+size: "340K"
+},
+{
+name: "xxxx",
+size: "24K"
+},
+{
+name: "ssh-keys",
+size: "12K"
+},
+{
+name: "tabArch",
+size: "4.0K"
+},
+{
+name: "krb5.conf",
+size: "4.0K"
+},
+{
+name: "id_rsa.priv.xxx",
+size: "4.0K"
+}
+]
+}
+]
+}
+}
+]
